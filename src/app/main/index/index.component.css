@@ -1,0 +1,15 @@
+.mat-card {
+  margin: 20px;
+}
+
+.p-24 {
+  padding: 24px !important;
+}
+
+.mr-24 {
+  margin-right: 24px !important;
+}
+
+.mat-form-field{
+  margin-left: 5px;
+}

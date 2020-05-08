@@ -1,18 +1,52 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MapsComponent} from './@shared/maps/maps.component';
+import {IndexComponent} from './main/index/index.component';
+import {AgmCoreModule} from '@agm/core';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatFormFieldModule,
+  MatIconModule,
+  MatInputModule,
+  MatSelectModule,
+  MatStepperModule, MatToolbarModule
+} from '@angular/material';
+import {ReactiveFormsModule} from '@angular/forms';
+import {BaseDirective2, MediaChange, MediaMarshaller, StyleBuilder, StyleUtils, FlexLayoutModule} from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapsComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatSelectModule,
+    MatStepperModule,
+    FlexLayoutModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBNmHQ0SQ3WjwwzrS4OsT1GpgWtQ80fZs4'
+    }),
+    ReactiveFormsModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
