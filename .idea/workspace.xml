@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="82a9d163-c4cd-482a-830c-98603e66b92e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/bundles/ngx-audio-player.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/bundles/ngx-audio-player.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/bundles/ngx-audio-player.umd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/bundles/ngx-audio-player.umd.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/component/base/base-audio-player-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/component/mat-advanced-audio-player/mat-advanced-audio-player.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/component/mat-basic-audio-player/mat-basic-audio-player.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/model/track.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/ngx-audio-player.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/pipe/seconds-to-minutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/lib/service/audio-player-service/audio-player.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/ngx-audio-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm2015/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/component/base/base-audio-player-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/component/mat-advanced-audio-player/mat-advanced-audio-player.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/component/mat-basic-audio-player/mat-basic-audio-player.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/model/track.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/ngx-audio-player.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/pipe/seconds-to-minutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/lib/service/audio-player-service/audio-player.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/ngx-audio-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/esm5/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/fesm2015/ngx-audio-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/fesm2015/ngx-audio-player.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/fesm5/ngx-audio-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/fesm5/ngx-audio-player.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/component/base/base-audio-player-components.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/component/mat-advanced-audio-player/mat-advanced-audio-player.component.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/component/mat-basic-audio-player/mat-basic-audio-player.component.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/model/track.model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/ngx-audio-player.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/pipe/seconds-to-minutes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/lib/service/audio-player-service/audio-player.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/ngx-audio-player.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/ngx-audio-player.metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ngx-audio-player/public_api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@shared/player/player.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@shared/player/player.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@shared/player/player.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@shared/player/player.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/music/My_Only_One.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/music/Wicked_Game.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/music/scary_love.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/index/index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/index/index.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +97,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/@angular/flex-layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/music" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -39,6 +106,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alejandro.Becerra\Documents\Projects\personal\Skimmia\src\assets\music" />
+      <recent name="C:\Users\Alejandro.Becerra\Documents\Projects\personal\Skimmia\src\app\main\index" />
       <recent name="C:\Users\Alejandro.Becerra\Documents\Projects\personal\Skimmia\node_modules\@angular\flex-layout" />
     </key>
   </component>
@@ -82,12 +151,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588905047344</updated>
-      <workItem from="1588905051207" duration="19096000" />
+      <workItem from="1588905051207" duration="24430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="176" y="92" width="1098" height="584" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1588963840717">

@@ -9,22 +9,25 @@ import {IndexComponent} from './main/index/index.component';
 import {AgmCoreModule} from '@agm/core';
 import {
   MatButtonModule,
-  MatCardModule,
+  MatCardModule, MatDividerModule,
   MatFormFieldModule,
   MatIconModule,
   MatInputModule,
-  MatSelectModule,
+  MatSelectModule, MatSnackBarModule,
   MatStepperModule, MatToolbarModule
 } from '@angular/material';
 import {ReactiveFormsModule} from '@angular/forms';
 import {BaseDirective2, MediaChange, MediaMarshaller, StyleBuilder, StyleUtils, FlexLayoutModule} from '@angular/flex-layout';
+import {NgxAudioPlayerModule} from 'ngx-audio-player';
+import {PlayerComponent} from './@shared/player/player.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MapsComponent,
-    IndexComponent
+    IndexComponent,
+    PlayerComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,6 +47,9 @@ import {BaseDirective2, MediaChange, MediaMarshaller, StyleBuilder, StyleUtils, 
     }),
     ReactiveFormsModule,
     MatToolbarModule,
+    NgxAudioPlayerModule,
+    MatDividerModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

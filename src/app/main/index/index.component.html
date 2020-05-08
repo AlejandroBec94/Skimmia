@@ -1,6 +1,13 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Skimmia Test</mat-card-title>
+    <mat-card-subtitle><a href="https://alejandrobecerraortizcv.herokuapp.com/" target="_blank">Alejandro Becerra
+      Ortiz</a></mat-card-subtitle>
+  </mat-card-header>
 
+</mat-card>
 
-<div class="mb-24" fxLayout="column" fxLayoutAlign="start" fxLayout.gt-md="row" >
+<div class="mb-24" fxLayout="column" fxLayoutAlign="start" fxLayout.gt-md="row">
 
   <!-- REACTIVE FORM EXAMPLE -->
 
@@ -8,7 +15,6 @@
         fxFlex="1 0 auto" name="form" [formGroup]="form">
 
     <div class="h2 mb-24">User Data</div>
-    <hr>
 
     <div fxLayout="row" fxLayoutAlign="start center" fxFlex="1 0 auto">
 
@@ -58,7 +64,7 @@
 
       <mat-form-field appearance="outline" fxFlex="33">
         <mat-label>Postal Code</mat-label>
-        <input matInput #postalCode value="94043"
+        <input matInput #postalCode
                formControlName="postalCode" maxlength="5" required>
         <mat-icon matSuffix class="secondary-text">markunread_mailbox</mat-icon>
         <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
@@ -91,6 +97,23 @@
 
     </div>
 
+    <button mat-raised-button color="accent" class="submit-button" aria-label="LOGIN"
+            [disabled]="form.invalid" (click)="userForm()">
+      <p>Send</p>
+    </button>
+
   </form>
 
 </div>
+
+<mat-divider></mat-divider>
+
+
+<mat-card>
+
+  <app-player fxFlex="50"></app-player>
+
+  <app-maps fxFlex="50"></app-maps>
+
+</mat-card>
+
